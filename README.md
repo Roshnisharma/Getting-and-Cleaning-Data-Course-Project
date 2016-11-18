@@ -12,15 +12,6 @@ This assignment was done to learn cleaning data. The data linked from the course
 #4.Appropriately labels the data set with descriptive variable names
 #5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-2. tidydata.txt contains the output of the code "run_analysis.R".
+2. "tidydata.txt" contains the output of the code "run_analysis.R".
 
-3. The variables  means the following:
-filesinfolder - has list of files in zipped folderdata
-ActivityTest, dataActivityTrain, dataSubjectTest, dataSubjectTrain, dataFeaturesTest, dataFeaturesTrain - raw data
-dataSubject, dataActivity, dataFeatures - merged data for subject, activity, features
-dataFeaturesNames - has names of features
-dataMerged - has merged data 
-setMeanStdNames - has names from dataFeaturesNames which are required
-dataMergedlater - has data for MeanStdNames variables from dataMerged
-dataMergedlater1 - has tidy data post calculating mean 
-tidydata.txt - has the output
+3. "CodeBook": tidydata.txt - has the output with attributes. The details of attribute is listed in this file.
