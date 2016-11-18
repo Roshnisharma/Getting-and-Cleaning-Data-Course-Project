@@ -28,3 +28,7 @@ dataMergedlater1 - has tidy data post calculating mean
 tidydata.txt - has the output
 
 The final file has following attributes:
+ attributes starting with "time" and "frequency" are respectively the time and frequency reading of "Sujects" doin 6 different "activity". 
+ Subjects are integers each integer for different subject.
+ Activities are like walking, standing for "body" and "gravity"
+ The values are averaged for each variable, each activity and each subject.
