@@ -15,18 +15,6 @@ For each record in the dataset it is provided:
 The raw data was processed to create tidy_data
 Attribute Information:
 
-While forming the final tidy data set, following variables and summaries were created:
-filesinfolder - has list of files in zipped folderdata 
-ActivityTest, dataActivityTrain, dataSubjectTest, dataSubjectTrain, dataFeaturesTest, dataFeaturesTrain - raw data 
-dataSubject, dataActivity, dataFeatures - merged data for subject, activity, features 
-dataFeaturesNames - has names of features 
-dataMerged - has merged data 
-setMeanStdNames - has names from 
-dataFeaturesNames which are required 
-dataMergedlater - has data for MeanStdNames variables from dataMerged 
-dataMergedlater1 - has tidy data post calculating mean 
-tidydata.txt - has the output
-
 The final file has following attributes:
  attributes starting with "time" and "frequency" are respectively the time and frequency reading of "Sujects" doin 6 different "activity". 
  Subjects are integers each integer for different subject.
