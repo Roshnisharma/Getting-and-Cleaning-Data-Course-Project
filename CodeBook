@@ -14,7 +14,7 @@ For each record in the dataset it is provided:
 
 The raw data was processed to create tidy_data
 Attribute Information:
-
+6The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.78For each record in the dataset it is provided: 9- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. 10- Triaxial Angular velocity from the gyroscope. 11- A 561-feature vector with time and frequency domain variables. 12- Its activity label. 13- An identifier of the subject who carried out the experiment.1415The raw data was processed to create tidy_data16Attribute Information:1718The final file has following attributes:19 attributes starting with "time" and "frequency" are respectively the time and frequency reading of "Sujects" doin 6 different "activity". 20 Subjects are integers each integer for different subject.21 Activities are like walking, standing for "body" and "gravity"22 The values are averaged for each variable, each activity and each subject.23
 The final file has following attributes:
  attributes starting with "time" and "frequency" are respectively the time and frequency reading of "Sujects" doin 6 different "activity". 
  Subjects are integers each integer for different subject.
